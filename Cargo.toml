@@ -1,0 +1,13 @@
+[package]
+name = "topes"
+version = "0.0.1"
+authors = ["Bruce Mitchener <bruce.mitchener@gmail.com>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = "An implementation of topes."
+keywords = []
+homepage = "https://github.com/endoli/topes.rs"
+repository = "https://github.com/endoli/topes.rs"
+
+[dependencies]
+uuid = { version = "0.2.2", features = ["v4"] }
